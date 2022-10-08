@@ -71,6 +71,24 @@ ul {
 li {
 	padding: .15em
 }
+a:link {
+  text-decoration: none;
+	color:dodgerblue;
+}
+
+a:visited {
+  text-decoration: none;
+	color: crimson;
+}
+
+a:hover {
+  text-decoration: underline;
+	color:coral
+}
+
+a:active {
+  text-decoration: underline;
+}
 .email {
 	background-color: whitesmoke;
 	width: 25%;
