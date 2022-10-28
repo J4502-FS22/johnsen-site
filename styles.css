@@ -1,30 +1,45 @@
 @charset "UTF-8";
-    /* Assignment Guidelines
-    Positioning: Center your content in the browser window
 
-Type: change in type: size, weight, color, alignment. See below about Google fonts.
-
-Links/Navigation: Display vertically on mobile. Remove default browser styles (bullets and underlines) and make sure that they can be distinguished from one another visually.
-
-Image: remove the border from your linked image (don’t forget this one; it doesn’t show up by default on most Mac browsers).
-
-Background: Give something on the page a background color or background image. Use a color scheme to define the areas of the site, including the header, navigation, body and footer.
-
-Type: Find the Google fonts you want to use here. (Links to an external site.) Add the link to the font in your html, and use the correct naming convention in your CSS. You'll need a full font stack in your CSS — the Google font, similar system font and serif or sans serif. Example: font-family: 'Roboto', Helvetica, sans-serif;
-    */
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&family=Caudex&family=Ubuntu+Condensed&display=swap');
 
-body {
-      text-align: center;
-		background: rgb(255,255,255);
-		background-image: 
+#indexbody {
+    text-align: center;
+    background-image: url("Images/StarsBW.jpeg")
+
+	/*	background-image:
 			linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(0,212,255,0.8646052170868348) 70%),
 			url("Images/STScI-01GA6KNV1S3TP2JBPCDT8G826T.png")
+		background: rgb(42, 45, 46);
+      */
     }
 
+#MRQSFbody {
+  text-align: center;
+	 background-image: url("Images/StarsBW.jpeg")
+ /* background: rgb(42, 45, 46);*/
+}
+#maindiv{
+  width: 90%;
+  max-width: 1000px;
+  background: rgba(218, 221, 216);
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  margin: 1rem auto;
+  text-align: center;
+}
+#MRQSFmain {
+  width: 90%;
+  max-width: 1000px;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  margin: 1rem auto;
+  text-align: center;
+}
 h1 {
 		font-family: 'Alegreya Sans SC', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
         font-size: 3em;
+    color: #BA5C12;
 		background-color: whitesmoke;
 		width: 70%;
 		padding-left: 10px;
@@ -32,62 +47,88 @@ h1 {
 		margin-right: auto;
 		margin-left: auto;
     }
-.heading {
+h2 {
 		font-family: 'Alegreya Sans SC', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
-       font-size: 2em;
-       background-color: lightgray;
-		width: 50%;
+    font-size: 2em;
+    color: #678D58;
+		background-color: whitesmoke;
+		width: 70%;
 		padding-left: 10px;
 		padding-right: 10px;
 		margin-right: auto;
 		margin-left: auto;
     }
+    h3 {
+    		font-family: 'Alegreya Sans SC', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+        font-size: 2em;
+        color: #678D58;
+    		background-color: whitesmoke;
+    		width: 70%;
+    		padding-left: 10px;
+    		padding-right: 10px;
+    		margin-right: auto;
+    		margin-left: auto;
+    }
 img {
 	border-style: dashed;
 	border-color: whitesmoke;
-	border-radius: 5px; 
+	border-radius: 5px;
 	padding: 5px;
 }
 p {
 	font-family: 'Ubuntu Condensed', Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	background-color: slategray;
-	width: 30%;
+	width: 85%;
 		padding-left: 10px;
 		padding-right: 10px;
 		margin-right: auto;
 		margin-left: auto;
+}
+
+nav {
+  width: 90%;
+  max-width: 1000px;
+  background: rgba(218, 221, 216);
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  margin: 1rem auto;
+  text-align: center;
 }
 ul {
 	font-family: 'Caudex', Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	list-style: none;
 	font-size: .9em;
-	background-color: navajowhite;
-	width: 30%;
+	width: 85%;
 		padding-left: 10px;
 		padding-right: 10px;
 		margin-right: auto;
 		margin-left: auto;
-}
+  }
 li {
 	padding: .15em
 }
+
 a:link {
   text-decoration: none;
-	color:dodgerblue;
+	color: #BA5C12;
+  font-style: italic;
 }
 
 a:visited {
   text-decoration: none;
 	color: crimson;
+  font-style: italic;
 }
 
 a:hover {
   text-decoration: underline;
 	color:coral
+  font-style: italic;
 }
 
 a:active {
   text-decoration: underline;
+  font-style: italic;
 }
 .email {
 	background-color: whitesmoke;
@@ -98,14 +139,8 @@ a:active {
 		margin-left: auto;
 }
 footer {
-	
-position: fixed;
-   bottom: 0;
-   width: 100%;
-   height: 30px; 
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	padding-bottom: 0px;
-	
 }
