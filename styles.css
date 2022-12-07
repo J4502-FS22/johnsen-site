@@ -10,7 +10,7 @@
   flex-direction: column;
   box-sizing: border-box;
 }
-.isolation{
+#isolation{
   background-color: rgb(181, 170, 141);
 }
 #indexbody {
@@ -172,7 +172,7 @@ footer {
 	margin-right: auto;
 	padding-bottom: 0px;
 
-/* media queries broke
+
 @media (min-width: 555px) {
 
   .image-holder {
@@ -197,9 +197,11 @@ footer {
     width: 50%;
   }
 
-
+.gallery-image{
+  padding: 2em;
 }
-
+}
+/*
 
 @media (min-width: 800px) {
 
