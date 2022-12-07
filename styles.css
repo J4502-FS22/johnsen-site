@@ -11,6 +11,8 @@
   box-sizing: border-box;
 }
 #isolation{
+}
+body{
   background-color: rgb(181, 170, 141);
 }
 #indexbody {
