@@ -10,6 +10,9 @@
   flex-direction: column;
   box-sizing: border-box;
 }
+.isolation{
+  background-color: rgb(181, 170, 141);
+}
 #indexbody {
     text-align: center;
     background-image: url("Images/StarsBW.jpeg")
@@ -54,6 +57,7 @@ h1 {
 		padding-right: 10px;
 		margin-right: auto;
 		margin-left: auto;
+    text-align: center;
     }
 h2 {
 		font-family: 'Alegreya Sans SC', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
@@ -83,7 +87,7 @@ img {
 	border-radius: 5px;
 	padding: 5px;
 }
-p {
+p, figcaption{
 	font-family: 'Ubuntu Condensed', Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	width: 85%;
 		padding-left: 10px;
@@ -91,7 +95,24 @@ p {
 		margin-right: auto;
 		margin-left: auto;
 }
+.gallery-image{
+padding-bottom: 10em;
+width: 50%;
+height: auto;
+margin: auto, auto;
 
+}
+.skip-link{
+  width: 90%;
+  max-width: 1000px;
+  background: rgba(218, 221, 216);
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  margin: auto;
+  text-align: center;
+
+}
 nav {
   width: 90%;
   max-width: 1000px;
@@ -175,7 +196,7 @@ footer {
   nav li {
     width: 50%;
   }
-	
+
 
 }
 
