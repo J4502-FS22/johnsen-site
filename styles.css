@@ -10,6 +10,19 @@
   flex-direction: column;
   box-sizing: border-box;
 }
+.skip {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.skip:focus {
+  position: static;
+  width: auto;
+  height: auto;
+}
 #isolation{
 }
 body{
@@ -101,7 +114,7 @@ p, figcaption{
 padding-bottom: 10em;
 width: 50%;
 height: auto;
-margin: auto, auto;
+margin: auto auto;
 
 }
 .skip-link{
