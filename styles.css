@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&family=Caudex&family=Ubuntu+Condensed&display=swap');
+.cssvalidated {
+  display: block;
+  margin: auto;
 
+}
 .text-holder {
   width: 100%;
   padding: 0;
@@ -23,9 +27,17 @@
   width: auto;
   height: auto;
 }
+.media-holder{
+	width:inherit;
+
+}
+.image-holder{
+	margin: inherit;
+	width: inherit;
+}
 #isolation{
 }
-body{ 
+body{
 
 		background: linear-gradient(rgba(181, 170, 141, .6), rgba(181, 170, 141, .6)), url("Images/PaperTexture.jpg");
  background-size: 100%;
@@ -116,7 +128,7 @@ p, figcaption{
 .gallery-piece {
 	width: 100%;
 	height: auto;
-	
+
 }
 .skip-link{
   width: 90%;
@@ -192,8 +204,8 @@ footer {
 @media (min-width: 555px) {
 
 
-	
-	
+
+
   .image-holder {
     width: 30%;
 	  text-align: center;
@@ -233,7 +245,7 @@ li {
 .gallery-image{
   padding: 2em;
 }
-	
+
 @media screen and (max-width: 480px) {
     img {
          width: 400px;
