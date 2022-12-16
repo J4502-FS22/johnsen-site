@@ -25,8 +25,10 @@
 }
 #isolation{
 }
-body{
-  background-color: rgb(181, 170, 141);
+body{ 
+
+		background: linear-gradient(rgba(181, 170, 141, .6), rgba(181, 170, 141, .6)), url("Images/PaperTexture.jpg");
+ background-size: 100%;
 }
 #indexbody {
     text-align: center;
@@ -110,12 +112,11 @@ p, figcaption{
 		margin-right: auto;
 		margin-left: auto;
 }
-.gallery-image{
-padding-bottom: 10em;
-width: 50%;
-height: auto;
-margin: auto auto;
 
+.gallery-piece {
+	width: 100%;
+	height: auto;
+	
 }
 .skip-link{
   width: 90%;
@@ -186,10 +187,13 @@ footer {
 	margin-left: auto;
 	margin-right: auto;
 	padding-bottom: 0px;
-
+}
 
 @media (min-width: 555px) {
 
+
+	
+	
   .image-holder {
     width: 30%;
 	  text-align: center;
@@ -202,19 +206,38 @@ footer {
 	  margin: auto;
   }
 
-  nav ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+nav {
+  width: 90%;
+  max-width: 1000px;
+  background: rgba(218, 221, 216);
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+  margin: 1rem auto;
+  text-align: center;
+}
+ul {
+	font-family: 'Caudex', Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	list-style: none;
+	font-size: .9em;
+	width: 85%;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-right: auto;
+		margin-left: auto;
   }
-
-  nav li {
-    width: 50%;
+li {
+	padding: .15em;
   }
 
 .gallery-image{
   padding: 2em;
 }
+	
+@media screen and (max-width: 480px) {
+    img {
+         width: 400px;
+    }
 }
 /*
 
@@ -234,3 +257,4 @@ footer {
 }
 
 */
+}
